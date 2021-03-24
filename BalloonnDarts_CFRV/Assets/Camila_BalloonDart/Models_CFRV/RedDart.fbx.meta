@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Dark_MAT
-    second: {fileID: 2100000, guid: 719de80f7f71a1944833369ec695757d, type: 2}
+    second: {fileID: 2100000, guid: f3c5796258f3c3c4798e0ff82629b989, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Metal_MAT
-    second: {fileID: 2100000, guid: a951dc41a7e88a948b5f380e1d28b017, type: 2}
+    second: {fileID: 2100000, guid: bdcccd669ef038247a1e2a8d5479d8dd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
