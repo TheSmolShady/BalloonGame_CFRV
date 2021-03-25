@@ -1,0 +1,572 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 17763.1039; Version 1809; 64bit' Language: 'en' Physical Memory: 16283 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/BalloonGame_CFRV/VRTest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56412
+Successfully changed project path to: F:/BalloonGame_CFRV/VRTest
+F:/BalloonGame_CFRV/VRTest
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.49 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 1.07 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/BalloonGame_CFRV/VRTest/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   26.21.14.4166
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002828 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 29.44 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.862 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002910 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 27.87 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in F:\BalloonGame_CFRV\VRTest\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in F:\BalloonGame_CFRV\VRTest\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.882 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 1605 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2048.
+Total: 2.319100 ms (FindLiveObjects: 0.192500 ms CreateObjectMapping: 0.088900 ms MarkObjects: 1.928200 ms  DeleteObjects: 0.108600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Camila_BalloonDart
+  artifactKey: Guid(3e8882d88e4be074aa12872ae8d2627e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart using Guid(3e8882d88e4be074aa12872ae8d2627e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50870aed113a405e88af02bd71e3ef90') in 0.012661 seconds
+  Import took 0.015642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.738786 seconds.
+  path: Assets/Camila_BalloonDart/Prefabs_CFRV
+  artifactKey: Guid(5779f4a56afe4604dabf2045dcf98a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Prefabs_CFRV using Guid(5779f4a56afe4604dabf2045dcf98a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3670fad7284e22ca166903cc4a174cea') in 0.008597 seconds
+  Import took 0.115333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.933197 seconds.
+  path: Assets/Camila_BalloonDart/Scenes
+  artifactKey: Guid(c057085088ef18c4d8a71652bef2e772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Scenes using Guid(c057085088ef18c4d8a71652bef2e772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180c6651e7ffc84bb46912930e6d5a6b') in 0.009262 seconds
+  Import took 0.117018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.017179 seconds.
+  path: Assets/Camila_BalloonDart/Models_CFRV
+  artifactKey: Guid(66f177a542fce01488adf7d45bda57ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Models_CFRV using Guid(66f177a542fce01488adf7d45bda57ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae9146fd702004bda4ac218b7cd4e0d') in 0.109702 seconds
+  Import took 0.127286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Camila_BalloonDart/Models_CFRV/Balloon.fbx
+  artifactKey: Guid(ae453bd547a7b67438c099afd6602a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Models_CFRV/Balloon.fbx using Guid(ae453bd547a7b67438c099afd6602a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e818a3aa48084721068ec2389ea34807') in 0.157792 seconds
+  Import took 0.160544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Camila_BalloonDart/Models_CFRV/BlueDart.fbx
+  artifactKey: Guid(e91bd98d01fa0d7428a477608300a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Models_CFRV/BlueDart.fbx using Guid(e91bd98d01fa0d7428a477608300a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9382f47e81c137b7fb1855c44bd8a78') in 0.240062 seconds
+  Import took 0.242952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Camila_BalloonDart/Models_CFRV/DartBoard.fbx
+  artifactKey: Guid(e7862e3dafb6b6947a6ad7b2e286a19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Models_CFRV/DartBoard.fbx using Guid(e7862e3dafb6b6947a6ad7b2e286a19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f133d8cb015a7a736216562e8aff1091') in 0.152905 seconds
+  Import took 0.155742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Camila_BalloonDart/Models_CFRV/RedDart.fbx
+  artifactKey: Guid(6e577e2d7ee5a0c4a8c942f7611e48f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Models_CFRV/RedDart.fbx using Guid(6e577e2d7ee5a0c4a8c942f7611e48f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e04a0adf7bcbac6a3a571c7abb358c') in 0.065559 seconds
+  Import took 0.068290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Camila_BalloonDart/Models_CFRV/PoppedBalloon.fbx
+  artifactKey: Guid(30b62a1ca29784446afde5e3cb2d45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Models_CFRV/PoppedBalloon.fbx using Guid(30b62a1ca29784446afde5e3cb2d45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6630f9116d5ab9268c75bb44e7bb5736') in 0.064521 seconds
+  Import took 0.113458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.498719 seconds.
+  path: Assets/Camila_BalloonDart/Models_CFRV/Bluedart.fbx
+  artifactKey: Guid(e91bd98d01fa0d7428a477608300a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Models_CFRV/Bluedart.fbx using Guid(e91bd98d01fa0d7428a477608300a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ba67d813f177e2c395cec2f01363fc') in 0.031457 seconds
+  Import took 0.042782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.525892 seconds.
+  path: Assets/Camila_BalloonDart/Models_CFRV/RedDart.fbx
+  artifactKey: Guid(6e577e2d7ee5a0c4a8c942f7611e48f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Models_CFRV/RedDart.fbx using Guid(6e577e2d7ee5a0c4a8c942f7611e48f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ec241aaef9ac63402425f836a18517') in 0.044175 seconds
+  Import took 0.047584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.927291 seconds.
+  path: Assets/Camila_BalloonDart/Models_CFRV/Bluedart.fbx
+  artifactKey: Guid(e91bd98d01fa0d7428a477608300a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Models_CFRV/Bluedart.fbx using Guid(e91bd98d01fa0d7428a477608300a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d710e77e17414e4846f0a1421f111cd') in 0.159507 seconds
+  Import took 0.162492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.050057 seconds.
+  path: Assets/Camila_BalloonDart/Models_CFRV/RedDart.fbx
+  artifactKey: Guid(6e577e2d7ee5a0c4a8c942f7611e48f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Models_CFRV/RedDart.fbx using Guid(6e577e2d7ee5a0c4a8c942f7611e48f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee73d68bc7b24e8ce9e9f818f7e417e') in 0.149262 seconds
+  Import took 0.168340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 178.593129 seconds.
+  path: Assets/Camila_BalloonDart/Prefabs_CFRV/Balloon.prefab
+  artifactKey: Guid(3d581fbf790e2d14496a52205518d340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Prefabs_CFRV/Balloon.prefab using Guid(3d581fbf790e2d14496a52205518d340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afbfcc5e502566e249abc880e424e31') in 0.360353 seconds
+  Import took 0.372303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Camila_BalloonDart/Prefabs_CFRV/BlueDart.prefab
+  artifactKey: Guid(1e8566c45a29cbb4a87e591548a6279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Prefabs_CFRV/BlueDart.prefab using Guid(1e8566c45a29cbb4a87e591548a6279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9020288e231ac3b7797b28a4f7e1fe41') in 0.155882 seconds
+  Import took 0.192879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Camila_BalloonDart/Prefabs_CFRV/RedDart.prefab
+  artifactKey: Guid(ba97f378a23df0a49a31aceec7c52a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Prefabs_CFRV/RedDart.prefab using Guid(ba97f378a23df0a49a31aceec7c52a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0edf5fa5c46e833285770729780aee2') in 0.020639 seconds
+  Import took 0.023419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002815 seconds.
+  path: Assets/Camila_BalloonDart/Prefabs_CFRV/RedDart.prefab
+  artifactKey: Guid(ba97f378a23df0a49a31aceec7c52a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Prefabs_CFRV/RedDart.prefab using Guid(ba97f378a23df0a49a31aceec7c52a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0edf5fa5c46e833285770729780aee2') in 0.016183 seconds
+  Import took 0.019084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.129772 seconds.
+  path: Assets/Camila_BalloonDart/Prefabs_CFRV/RedDart.prefab
+  artifactKey: Guid(ba97f378a23df0a49a31aceec7c52a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Prefabs_CFRV/RedDart.prefab using Guid(ba97f378a23df0a49a31aceec7c52a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c007cc6e5c4f573311b76cf9cde5f8') in 0.149353 seconds
+  Import took 0.168385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.983892 seconds.
+  path: Assets/Camila_BalloonDart/Prefabs_CFRV/Bluedart.prefab
+  artifactKey: Guid(1e8566c45a29cbb4a87e591548a6279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Prefabs_CFRV/Bluedart.prefab using Guid(1e8566c45a29cbb4a87e591548a6279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac79b899623e1e8d362bee34b74074c') in 0.154549 seconds
+  Import took 0.157627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.594570 seconds.
+  path: Assets/Camila_BalloonDart/Models_CFRV/PoppedBalloon.fbx
+  artifactKey: Guid(30b62a1ca29784446afde5e3cb2d45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Models_CFRV/PoppedBalloon.fbx using Guid(30b62a1ca29784446afde5e3cb2d45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccafef3edaee27df67f3f936fb7b0c9') in 0.021954 seconds
+  Import took 0.051223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.298261 seconds.
+  path: Assets/Camila_BalloonDart/Models_CFRV/PoppedBalloon.fbx
+  artifactKey: Guid(30b62a1ca29784446afde5e3cb2d45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Models_CFRV/PoppedBalloon.fbx using Guid(30b62a1ca29784446afde5e3cb2d45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b77ece0f5ae9640e6c353f46c2473bd') in 0.033783 seconds
+  Import took 0.037231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.717316 seconds.
+  path: Assets/Camila_BalloonDart/Models_CFRV/PoppedBalloon.fbx
+  artifactKey: Guid(30b62a1ca29784446afde5e3cb2d45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Models_CFRV/PoppedBalloon.fbx using Guid(30b62a1ca29784446afde5e3cb2d45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f97fb9741ddad430b16311df830b2f') in 0.022052 seconds
+  Import took 0.025870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.002842 seconds.
+  path: Assets/Camila_BalloonDart/Models_CFRV/PoppedBalloon.fbx
+  artifactKey: Guid(30b62a1ca29784446afde5e3cb2d45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Models_CFRV/PoppedBalloon.fbx using Guid(30b62a1ca29784446afde5e3cb2d45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e6b41aa1bfd1d8a6189104b2a668ee') in 0.019351 seconds
+  Import took 0.026857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.664858 seconds.
+  path: Assets/Camila_BalloonDart/Models_CFRV/PoppedBalloon.fbx
+  artifactKey: Guid(30b62a1ca29784446afde5e3cb2d45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Models_CFRV/PoppedBalloon.fbx using Guid(30b62a1ca29784446afde5e3cb2d45d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801235deecd625f98ef3ff14c9eaf070') in 0.060489 seconds
+  Import took 0.063951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.599997 seconds.
+  path: Assets/Camila_BalloonDart/Prefabs_CFRV/RedDart.prefab
+  artifactKey: Guid(ba97f378a23df0a49a31aceec7c52a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Prefabs_CFRV/RedDart.prefab using Guid(ba97f378a23df0a49a31aceec7c52a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4915acf5a02a4be9a5e68fa1f08d122b') in 0.144343 seconds
+  Import took 0.152863 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in F:\BalloonGame_CFRV\VRTest\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in F:\BalloonGame_CFRV\VRTest\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.0 MB.
+System memory in use after: 77.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2094.
+Total: 1.861200 ms (FindLiveObjects: 0.205800 ms CreateObjectMapping: 0.052400 ms MarkObjects: 1.541200 ms  DeleteObjects: 0.060700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 131.513861 seconds.
+  path: Assets/Camila_BalloonDart/Prefabs_CFRV/RedDart.prefab
+  artifactKey: Guid(ba97f378a23df0a49a31aceec7c52a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Prefabs_CFRV/RedDart.prefab using Guid(ba97f378a23df0a49a31aceec7c52a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c988b1926501965c16b6c7c73bee55') in 0.178350 seconds
+  Import took 0.198306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.139484 seconds.
+  path: Assets/Camila_BalloonDart/Prefabs_CFRV/Bluedart.prefab
+  artifactKey: Guid(1e8566c45a29cbb4a87e591548a6279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Prefabs_CFRV/Bluedart.prefab using Guid(1e8566c45a29cbb4a87e591548a6279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28410aee1411b3d43cd7ac51fb8578f7') in 0.127592 seconds
+  Import took 0.138585 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003111 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in F:\BalloonGame_CFRV\VRTest\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in F:\BalloonGame_CFRV\VRTest\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2098.
+Total: 2.192800 ms (FindLiveObjects: 0.246400 ms CreateObjectMapping: 0.056700 ms MarkObjects: 1.783000 ms  DeleteObjects: 0.105200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003436 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in F:\BalloonGame_CFRV\VRTest\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in F:\BalloonGame_CFRV\VRTest\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.3 MB.
+System memory in use after: 77.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2101.
+Total: 2.806700 ms (FindLiveObjects: 0.446500 ms CreateObjectMapping: 0.131700 ms MarkObjects: 2.138300 ms  DeleteObjects: 0.088600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003463 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in F:\BalloonGame_CFRV\VRTest\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in F:\BalloonGame_CFRV\VRTest\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.4 MB.
+System memory in use after: 77.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2104.
+Total: 2.057500 ms (FindLiveObjects: 0.315500 ms CreateObjectMapping: 0.120000 ms MarkObjects: 1.538800 ms  DeleteObjects: 0.082000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 694.906680 seconds.
+  path: Assets/Camila_BalloonDart/BalloonsnDarts_CFRV.unity
+  artifactKey: Guid(7372d72c4e7a7784bbbf12b5723bb425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/BalloonsnDarts_CFRV.unity using Guid(7372d72c4e7a7784bbbf12b5723bb425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a1ec743af563ca7486a822c3aeb519') in 0.021050 seconds
+  Import took 0.130126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.983359 seconds.
+  path: Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Metal_MAT_MetallicSmoothness.png
+  artifactKey: Guid(92a6b1ada0ff4f443b27c73e59ffca19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Metal_MAT_MetallicSmoothness.png using Guid(92a6b1ada0ff4f443b27c73e59ffca19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc14d819ea5991b4fb31b119f822975') in 0.123791 seconds
+  Import took 0.126781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044372 seconds.
+  path: Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Red_MAT_Normal.png
+  artifactKey: Guid(eeb24e27208efc642ba030ffe3690282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Red_MAT_Normal.png using Guid(eeb24e27208efc642ba030ffe3690282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de76b00e30ad1a530c63ec414085bb43') in 0.048930 seconds
+  Import took 0.078723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054747 seconds.
+  path: Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Red_MAT_MetallicSmoothness.png
+  artifactKey: Guid(79d7362f987d4af48be483142aa40403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Red_MAT_MetallicSmoothness.png using Guid(79d7362f987d4af48be483142aa40403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9777b0e650eac9205112a168d97b4e') in 0.027837 seconds
+  Import took 0.030631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134430 seconds.
+  path: Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Metal_MAT_Normal.png
+  artifactKey: Guid(e0f619e6809037b4783e98d60c3adaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Metal_MAT_Normal.png using Guid(e0f619e6809037b4783e98d60c3adaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514912571a6a1216eec7228098c97797') in 0.046332 seconds
+  Import took 0.049051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011062 seconds.
+  path: Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Metal_MAT_AlbedoTransparency.png
+  artifactKey: Guid(1aacfac988acec040ad153929894a372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Metal_MAT_AlbedoTransparency.png using Guid(1aacfac988acec040ad153929894a372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdde62708ffb52a7c12aa7fd59479048') in 0.024705 seconds
+  Import took 0.032982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009929 seconds.
+  path: Assets/Camila_BalloonDart/Scripts_CFRV/Poppable.cs
+  artifactKey: Guid(97133994f143a4b4aa27b60d0c2c326c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Scripts_CFRV/Poppable.cs using Guid(97133994f143a4b4aa27b60d0c2c326c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d471cea8021efafe263dcdedb9d108') in 0.020568 seconds
+  Import took 0.023077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035392 seconds.
+  path: Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Red_MAT_AlbedoTransparency.png
+  artifactKey: Guid(222b45ed77871fe41ba4c69f5486801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Red_MAT_AlbedoTransparency.png using Guid(222b45ed77871fe41ba4c69f5486801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbba54c2dbe5e6bce51e195f29133b0b') in 0.024740 seconds
+  Import took 0.031939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023409 seconds.
+  path: Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Blue_MAT_Normal.png
+  artifactKey: Guid(7c315374ac89d7e42bbbfe812cef8df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Blue_MAT_Normal.png using Guid(7c315374ac89d7e42bbbfe812cef8df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857e29e3b2d208ebd4455ff3668c8b65') in 0.027746 seconds
+  Import took 0.031224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023382 seconds.
+  path: Assets/Camila_BalloonDart/Textures_CFRV/DartBoard_DartBoard_MAT_MetallicSmoothness.png
+  artifactKey: Guid(b04809a447dc60a4c83906217e0d0d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Textures_CFRV/DartBoard_DartBoard_MAT_MetallicSmoothness.png using Guid(b04809a447dc60a4c83906217e0d0d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9b8ffa609b6afb294a2695b15c4353') in 0.030638 seconds
+  Import took 0.034055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110498 seconds.
+  path: Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Dark_MAT_AlbedoTransparency.png
+  artifactKey: Guid(d21c38affeea72d4aa967437308d0001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Dark_MAT_AlbedoTransparency.png using Guid(d21c38affeea72d4aa967437308d0001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e72d0d4610baf0660e6d2b0c249d0f') in 0.033508 seconds
+  Import took 0.036704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011737 seconds.
+  path: Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Dark_MAT_MetallicSmoothness.png
+  artifactKey: Guid(8967a87aa64c94b4b9ecf213f9743cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Dark_MAT_MetallicSmoothness.png using Guid(8967a87aa64c94b4b9ecf213f9743cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acb2fb76edae169fc7e3a3e46ef4520') in 0.031272 seconds
+  Import took 0.034612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090290 seconds.
+  path: Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Dark_MAT_Normal.png
+  artifactKey: Guid(bc3f28ec2b0fdff4891d2313f6b58bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Dark_MAT_Normal.png using Guid(bc3f28ec2b0fdff4891d2313f6b58bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57ea457e483d41fd396806f4a468e52') in 0.024500 seconds
+  Import took 0.033594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033050 seconds.
+  path: Assets/Camila_BalloonDart/Textures_CFRV/DartBoard_DartBoard_MAT_Normal.png
+  artifactKey: Guid(7eeedad757357874ba5dd123a00c0a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Textures_CFRV/DartBoard_DartBoard_MAT_Normal.png using Guid(7eeedad757357874ba5dd123a00c0a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a94cc80f680a51203e510d4bb27123') in 0.026860 seconds
+  Import took 0.039130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024020 seconds.
+  path: Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Blue_MAT_MetallicSmoothness.png
+  artifactKey: Guid(3c14ee86552725947926c769975ece74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Blue_MAT_MetallicSmoothness.png using Guid(3c14ee86552725947926c769975ece74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec337dd0ac8fa898a2527c0b940bb36') in 0.043307 seconds
+  Import took 0.046005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035546 seconds.
+  path: Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Blue_MAT_AlbedoTransparency.png
+  artifactKey: Guid(efdb15123a79ee4418581eb5e2a5be60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Textures_CFRV/BlueDart_Blue_MAT_AlbedoTransparency.png using Guid(efdb15123a79ee4418581eb5e2a5be60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8ea7b18d593d848c079f2af070ee74') in 0.034662 seconds
+  Import took 0.037560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025277 seconds.
+  path: Assets/Camila_BalloonDart/Textures_CFRV/DartBoard_DartBoard_MAT_AlbedoTransparency.png
+  artifactKey: Guid(bccb39ba5f9dded49a5256cfc077d79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camila_BalloonDart/Textures_CFRV/DartBoard_DartBoard_MAT_AlbedoTransparency.png using Guid(bccb39ba5f9dded49a5256cfc077d79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2c2daa2c9c96e9a26a52969c13abab') in 0.027859 seconds
+  Import took 0.044573 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
