@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Camila_BalloonDart/BalloonsnDarts_CFRV.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
